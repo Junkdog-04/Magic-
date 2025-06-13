@@ -80,7 +80,7 @@ bun run scripts/nexus.ts --prod
 Write components like this:
 
 ```ts
-class BentoCard extends HTMLElement {
+class MagicCard extends HTMLElement {
   static get observedAttributes() { return ['image', 'title']; }
   ...
 }
@@ -94,7 +94,7 @@ Defined in `core/LIBRIS.ts`, the framework validates components based on a regis
 
 ```ts
 const magicRegistry = {
-  'bento-card': ['image']
+  'magic-card': ['image']
 };
 ```
 
